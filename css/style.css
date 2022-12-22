@@ -1,9 +1,24 @@
-:root {
-
-    --cor-primaria: #282A36;
+@font-face {
+    font-family:'Roboto' ;
+    src: url('../fonts/Roboto-Regular.ttf'), url('../fonts/Roboto-Bold.ttf');
 
 }
 
-@media screen {
-    
+*{
+    font-family:'Roboto';
+}
+
+.button {
+    background-color: #3EB25E;
+    border-radius: 35px;
+    font-family: 'Roboto' ;
+    cursor: pointer;
+}
+
+.h1{
+    font-family: 'Roboto';
+}
+
+.h2{
+    font-family: 'Roboto';
 }
