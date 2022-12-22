@@ -12,17 +12,28 @@
     <img src="imgs/imgtela2.svg" height="190px" width="190px">
 
     <form>
-        <p>what is the status of your account?</p>
-        <input type="checkbox" value="I have not created an account yet">
+        <label>What is the status of your account?</label>
+        <input type="select" class="select" value="I have not created an account yet">
     </form>
+
     <form>
         <p>In which financial markets do you operate?</p>
-        <input type="checkbox"> <!-- dar uma olhada aqui para saber se ta certo -->
+        <input type="radio"><!-- dar uma olhada aqui para saber se ta certo e ver mais uma coisa nos botoes  -->
+        <label>stock market</label><br>
+        <input type="radio">
+        <label>foreign exchange</label><br>
+        <input type="radio">
+        <label>commodity</label><br>
+        <input type="radio">
+        <label>bond market</label><br>
+        <input type="radio">
+        <label>cryptocurrency market</label><br>
     </form>
+
     <section>
-        <button>Back</button>
-        <button>Next</button>
-        <button>Skip</button>
+        <a href="tela1.html"><button>Back</button></a>
+        <button>Next</button><!--tenho q ver a interatividade pq só ussa essa se tiver selecionado algo no select acima-->
+        <a href="tela3.html"><button>Skip</button></a>
     </section>
 
 </body>

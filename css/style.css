@@ -8,11 +8,15 @@
     font-family:'Roboto';
 }
 
-.button {
+button {
+    width: 100px;
     background-color: #3EB25E;
     border-radius: 35px;
     font-family: 'Roboto' ;
     cursor: pointer;
+    border: #3EB25E;
+    color: #ffffff;
+
 }
 
 .h1{
@@ -21,4 +25,21 @@
 
 .h2{
     font-family: 'Roboto';
+}
+
+.select{
+    width: 300px;
+    border-radius: 35px;
+    font-family: 'Roboto';
+
+}
+
+.label{
+    font-family: 'Roboto';
+}
+
+.textarea{
+    width: 300px;
+    height: 300px;
+    border-radius: 35px;
 }
