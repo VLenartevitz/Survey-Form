@@ -6,25 +6,103 @@
 
 *{
     font-family:'Roboto';
+    margin: 0px;
+    padding: 0px;
+
 }
 
-button {
-    width: 100px;
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.img{
+    margin-top: 80px;
+    margin-left: -50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 30px;
+    background-color: #3EB25E;
+    border-radius: 35px;
+    cursor: pointer;
+    border: #3EB25E;
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 30px;
+    
+}
+.buttonMenorEs{
+    width: 140px;
+    height: 30px;
     background-color: #3EB25E;
     border-radius: 35px;
     font-family: 'Roboto' ;
     cursor: pointer;
     border: #3EB25E;
     color: #ffffff;
+    font-size: 15px;
+
+}
+.buttonMenorDi{
+    width: 140px;
+    height: 30px;
+    background-color: #3EB25E;
+    border-radius: 35px;
+    font-family: 'Roboto' ;
+    cursor: pointer;
+    border: #3EB25E;
+    color: #ffffff;
+    font-size: 15px;
+
+}
+.buttonLargo{
+    width: 140px;
+    height: 30px;
+    background-color: #3EB25E;
+    border-radius: 35px;
+    font-family: 'Roboto' ;
+    cursor: pointer;
+    border: #3EB25E;
+    color: #ffffff;
+    font-size: 15px;
+
+}
+.buttonLargoCima{
+    width: 140px;
+    height: 30px;
+    background-color: #3EB25E;
+    border-radius: 35px;
+    font-family: 'Roboto' ;
+    cursor: pointer;
+    border: #3EB25E;
+    color: #ffffff;
+    font-size: 15px;
 
 }
 
 .h1{
-    font-family: 'Roboto';
+    position: relative;
+    font-size: 50px;
+    margin-top: 25px;
+
 }
 
 .h2{
-    font-family: 'Roboto';
+    position: relative;
+    font-size: 20px;
+    margin-top: 25px;
+    
 }
 
 .select{
@@ -43,3 +121,10 @@ button {
     height: 300px;
     border-radius: 35px;
 }
+
+.formTela5{
+    border-radius: 35px;
+    border-color: #bfbfbf;
+    color: #bfbfbf;
+}
+
