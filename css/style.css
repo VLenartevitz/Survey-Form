@@ -19,12 +19,14 @@
 }
 
 .img{
-    margin-top: 80px;
-    margin-left: -50px;
+    margin-top: 3em;
+    margin-left: -4em;
+    height: 28em;
 }
 .img2{
-    margin-top: 51px;
-    margin-left: -35;
+    margin-top: 3em;
+    margin-left: 1em;
+    width: 23em;
 }
 
 a{
@@ -35,15 +37,15 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 140px;
-    height: 30px;
+    width: 13em;
+    height: 2em;
     background-color: #3EB25E;
-    border-radius: 35px;
+    border-radius: 35em;
     cursor: pointer;
     border: #3EB25E;
     color: #ffffff;
-    font-size: 15px;
-    margin-top: 30px;
+    font-size: 1em;
+    margin-top: 2em;
     
 }
 .buttonMenorEs{
@@ -86,7 +88,7 @@ a{
 
 }
 .buttonLargoCima{
-    width: 140px;
+    width: 285px;
     height: 30px;
     background-color: #3EB25E;
     border-radius: 35px;
@@ -95,50 +97,65 @@ a{
     border: #3EB25E;
     color: #ffffff;
     font-size: 15px;
+    margin-top: 2px;
 
 }
-
+.buttonsDupla{
+    position: relative;
+    margin-left: 20%;
+    margin-top: 0.5em;
+}
 .buttonsTrio{
     position: relative;
-    margin-left: 50px;
+    margin-left: 20%;
+    margin-top: 2em;
+}/*outros buttons de outras tela tão mais baixo olha isso*/
+.buttonsTrioTela4{
+    position: relative;
+    margin-left: 20em;
+    margin-top: 3em;
 }
 
 .h1{
     position: relative;
-    font-size: 53px;
-    margin-top: 25px;
+    font-size: 3em;
+    margin-top: 0.2em;
 
 }
 
 .h2{
     position: relative;
-    font-size: 30px;
-    margin-top: 27px ;
+    font-size: 2em;
+    margin-top: 1em ;
     text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .h3{
     position: relative;
-    font-size: 20px;
-    margin-top: 25px;
+    font-size: 1.5em;
+    margin-top: 0.6em;
     
 }
 
 .formTela2{
     position: relative;
     align-items: center;
-    margin-left: 50px;
-    margin-top: 25px;
+    margin-left: 20%;
+    margin-top: 4%;
+    
 
 }
 
 .select{
     position: relative;
-    width: 278px;
-    height: 25px;
-    border-radius: 35px;
+    width: 20em;
+    height: 2em;
+    border-radius: 35em;
     text-align: center;
-    text-size-adjust: 40px;
+    text-size-adjust: 40em;
+
 
 }
 
@@ -146,37 +163,79 @@ a{
     font-family: 'Roboto';
     position: relative;
     font-weight: bold;
-    text-align: justify;  
-    margin-right: 80px; 
-    margin-left: 15px; 
+    text-align: center; 
+    margin-top: 0.1%;   
+}
+.label2{
+    font-family: 'Roboto';
+    position: relative;
+    font-weight: bold;
+    text-align: justify; 
+    margin-left: 0em;
+    margin-right: 8em;
+     
+}
+.label3{
+    font-family: 'Roboto';
+    position: relative;
+    font-weight: bold;
+    text-align: justify;
+    margin-right: 10em; 
+}
+.labelTela5{
+    font-family: 'Roboto';
+    position: relative;
+    font-weight: bold;
+    text-align: center; 
+    margin-top: 0.1%;
+    margin-left: 0.8em;
 }
 
 .form2Tela2{
     position: relative;
-    margin-top: 15px ;
-    margin-left: 40px;
+    margin-top: 1em ;
+    margin-left: 1em;
+   
+}
+.form2Tela3{
+    position: relative;
+    margin-top: 1em ;
+    margin-left: 6em;
+    
 }
 
 .textarea{
-    width: 278px;
-    height: 131px;
-    border-radius: 35px;
+    width: 20em;
+    height: 10em;
+    border-radius: 2em;
     position: relative;
-    
-    margin-top: 40px;
+    margin-top: 1.5em;
+    margin-left: 1em;
 
 }
 
 .formTela5{
-    border-radius: 35px;
+    border-radius: 2em;
     border-color: #bfbfbf;
     color: #bfbfbf;
+    width: 20em;
+    height: 2em;
+}
+
+.formTela5Posi{
+    margin-left: -1em;
+    margin-top: 1em;
 }
 
 .p{
     position: relative;
     text-align: center;
-    font-size: 18px;
-    margin-top: 22px;
+    font-size: 1.125em;
+    margin-top: 1em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    
+    
 
 }
+/*fazer um roover*/
