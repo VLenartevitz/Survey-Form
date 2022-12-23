@@ -22,6 +22,10 @@
     margin-top: 80px;
     margin-left: -50px;
 }
+.img2{
+    margin-top: 51px;
+    margin-left: -35;
+}
 
 a{
     text-decoration: none;
@@ -52,6 +56,7 @@ a{
     border: #3EB25E;
     color: #ffffff;
     font-size: 15px;
+    margin-top: 30px;
 
 }
 .buttonMenorDi{
@@ -64,6 +69,7 @@ a{
     border: #3EB25E;
     color: #ffffff;
     font-size: 15px;
+    margin-top: 30px;
 
 }
 .buttonLargo{
@@ -93,33 +99,54 @@ a{
 
 .h1{
     position: relative;
-    font-size: 50px;
+    font-size: 53px;
     margin-top: 25px;
 
 }
 
 .h2{
     position: relative;
+    font-size: 30px;
+    margin-top: 27px ;
+    text-align: center;
+}
+
+.h3{
+    position: relative;
     font-size: 20px;
     margin-top: 25px;
     
 }
 
+.formTela2{
+    position: relative;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
 .select{
-    width: 300px;
+    position: relative;
+    width: 278px;
+    height: 25px;
     border-radius: 35px;
-    font-family: 'Roboto';
+    text-align: center;
+    text-size-adjust: 40px;
 
 }
 
 .label{
     font-family: 'Roboto';
+    position: relative;
+    
 }
 
 .textarea{
     width: 300px;
     height: 300px;
     border-radius: 35px;
+    position: relative;
+
 }
 
 .formTela5{
@@ -128,3 +155,10 @@ a{
     color: #bfbfbf;
 }
 
+.p{
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 22px;
+
+}
