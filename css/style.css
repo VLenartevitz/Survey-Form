@@ -145,8 +145,6 @@ a{
     align-items: center;
     margin-left: 20%;
     margin-top: 4%;
-    
-
 }
 
 .select{
@@ -156,7 +154,6 @@ a{
     border-radius: 35em;
     text-align: center;
     text-size-adjust: 40em;
-
 
 }
 
@@ -270,7 +267,7 @@ a{
         font-size: 1.8em;
     }
     .img2{
-        margin-top: 10em;
+        margin-top: 8em;
         margin-left: 6em;
         width: 34em;
     }
@@ -317,5 +314,45 @@ a{
         font-size: 1em;
         margin-top: 30px;
         margin-left: 1em;
+    }
+    .label{
+        font-family: 'Roboto';
+        position: relative;
+        font-weight: bold;
+        text-align: center; 
+        font-size: 1em;
+        margin-bottom: 1em;
+        
+    }
+    .select{
+        position: relative;
+        width: 30em;
+        height: 2.5em;
+        border-radius: 35em;
+        text-align: center;
+    }
+    .form2Tela2{
+        position: relative;
+        margin-top: 1em ;
+        margin-left: 1em;
+        font-size: 1.4em; 
+    }
+    .formTela2{
+        position: relative;
+        align-items: center;
+        margin-left: 7em;
+        margin-top: 10em;    
+    }
+    .buttonLargo{
+        width: 27em;
+        height: 30px;
+        background-color: #3EB25E;
+        border-radius: 35px;
+        font-family: 'Roboto' ;
+        cursor: pointer;
+        border: #3EB25E;
+        color: #ffffff;
+        font-size: 15px;
+        margin-top: 1em; 
     }
 }
