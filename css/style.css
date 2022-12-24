@@ -355,4 +355,12 @@ a{
         font-size: 15px;
         margin-top: 1em; 
     }
+    .label2{
+        font-family: 'Roboto';
+        position: relative;
+        font-weight: bold;
+        text-align: justify; 
+        margin-left: 0em;
+        margin-right: 8em
+    }
 }
