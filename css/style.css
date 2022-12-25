@@ -104,11 +104,12 @@ a{
     position: relative;
     margin-left: 20%;
     margin-top: 0.5em;
+    margin-right: 20%;
 }
 .buttonsTrio{
     position: relative;
     margin-left: 20%;
-    margin-top: 2em;
+    margin-top: 0em;
 }/*outros buttons de outras tela tão mais baixo olha isso*/
 .buttonsTrioTela4{
     position: relative;
@@ -196,12 +197,14 @@ a{
     position: relative;
     margin-top: 1em ;
     margin-left: 6em;
+    margin-right: 5em;
    
 }
 .form2Tela3{
     position: relative;
     margin-top: 1em ;
     margin-left: 6em;
+    margin-right: 5em;
     
 }
 
@@ -224,8 +227,9 @@ a{
 }
 
 .formTela5Posi{
-    margin-left: -1em;
+    margin-left: 5em;
     margin-top: 1em;
+    margin-right: 5em;
 }
 
 .p{
@@ -241,6 +245,31 @@ a{
     flex-direction: column;
     align-items: center;
     margin-top: 0px;  
+}
+.formsTela4{
+    position: relative;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+.buttonLargoTela5{
+    width: 19em;
+    height: 2em;
+    background-color: #3EB25E;
+    border-radius: 35px;
+    font-family: 'Roboto' ;
+    cursor: pointer;
+    border: #3EB25E;
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 1em;
+}
+.formTela5Mini{
+    border-radius: 1em;
+    border-color: #bfbfbf;
+    color: #bfbfbf;
+    width: 11em;
+    height: 2em;
+    margin-top: 1em;
 }
 
 /*fazer um roover*/
@@ -359,8 +388,16 @@ a{
     .formTela2{
         position: relative;
         align-items: center;
-        margin-left: 7em;
-        margin-top: 10em;    
+        margin-left: 5em;
+        margin-top: 10em;
+        margin-right: 5em;    
+    }
+    .form2Tela3{
+        position: relative;
+        margin-top: 1em ;
+        margin-left: 5em;
+        margin-right: 5em;
+        font-size: 1.4em; 
     }
     .buttonLargo{
         width: 27em;
@@ -378,9 +415,9 @@ a{
         font-family: 'Roboto';
         position: relative;
         font-weight: bold;
-        text-align: justify; 
-        margin-left: 0em;
-        margin-right: 8em
+        text-align: center; 
+        font-size: 1em;
+        
     }
     .textarea{
         width: 30em;
@@ -425,7 +462,7 @@ a{
     }
     .buttonsDupla{
         position: relative;
-        margin-left: 7em;
+        margin-left: 0em;
         margin-top: 0.5em;   
     }
     .formTela5Posi{
