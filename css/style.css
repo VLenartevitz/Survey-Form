@@ -325,6 +325,7 @@ a{
     margin-top: 1em;
 }
 
+
 @media all and (min-width:1200px){
     .wrapper{
         display: flex;
