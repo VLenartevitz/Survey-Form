@@ -64,6 +64,7 @@ a{
     color: #ffffff;
     font-size: 15px;
     margin-top: 30px;
+    
 }
 .buttonMenorEs:hover{
     background-color: #FFFF7D;
@@ -79,6 +80,7 @@ a{
     color: #ffffff;
     font-size: 15px;
     margin-top: 30px;
+    
 }
 .buttonMenorDi:hover{
     background-color: #FFFF7D;
@@ -99,7 +101,7 @@ a{
     background-color: #FFFF7D;
 }
 .buttonLargoCima{
-    width: 285px;
+    width: 20em;
     height: 30px;
     background-color: #3EB25E;
     border-radius: 35px;
@@ -115,14 +117,16 @@ a{
 }
 .buttonsDupla{
     position: relative;
-    margin-left: 20%;
+    margin-left: 15%;
     margin-top: 0.5em;
-    margin-right: 20%;
+    margin-right: 5%;
+    margin-bottom: 2em;
 }
 .buttonsTrio{
     position: relative;
     margin-left: 20%;
     margin-top: 0em;
+    margin-bottom: 2em;
 }
 .buttonsTrioTela4{
     position: relative;
@@ -165,6 +169,7 @@ a{
 }
 
 .select{
+    appearance: none;
     position: relative;
     width: 20em;
     height: 2em;
@@ -180,7 +185,8 @@ a{
     font-weight: bold;
     text-align: center; 
     margin-top: 0.1%; 
-    
+    font-size: 1em;  
+}
 .label2{
     font-family: 'Roboto';
     position: relative;
@@ -211,12 +217,14 @@ a{
     height: 1.5em;
     background-color: #3EB25E;
     border-radius: 2em;
+    
 }
 .radio:checked{
     width: 1.5em;
     height: 1.5em;
     background-color: #000000;
     border-radius: 2em;
+
 }
 .checkbox{
     appearance: none;
@@ -231,6 +239,7 @@ a{
     background-color: #000000;
     border-radius: 1px;
 }
+
 
 .form2Tela2{
     position: relative;
@@ -293,7 +302,7 @@ a{
     margin-right: 5em;
 }
 .buttonLargoTela5{
-    width: 19em;
+    width: 20em;
     height: 2em;
     background-color: #3EB25E;
     border-radius: 35px;
@@ -410,7 +419,7 @@ a{
         position: relative;
         font-weight: bold;
         text-align: center; 
-        font-size: 1em;
+        font-size: 1.5em;
         margin-bottom: 1em;
         
     }
@@ -425,7 +434,7 @@ a{
         position: relative;
         margin-top: 1em ;
         margin-left: 1em;
-        font-size: 1.4em; 
+         
     }
     .formTela2{
         position: relative;
